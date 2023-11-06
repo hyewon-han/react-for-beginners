@@ -1,0 +1,41 @@
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.movie__bgimg {
+  width: 100%;
+  height: 100vh;
+}
+
+.movie__coverimg {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 34%;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px #00000033;
+  border-radius: 5px;
+}
+
+.movie__info {
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  color: white;
+  width: 50%;
+}
+
+.movie__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.movie__genres li {
+  list-style: circle;
+  font-size: 1.4rem;
+}
